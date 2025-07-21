@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { title: "Project Manager", icon: "fas fa-briefcase" },
         { title: "System Analyst", icon: "fas fa-chart-line" },
         { title: "Full Stack Developer", icon: "fas fa-code" },
-        { title: "DevOps", icon: "fas fa-server" },
+        // { title: "DevOps", icon: "fas fa-server" },
         { title: "Data Management", icon: "fas fa-database" },
         { title: "Data Analyst", icon: "fas fa-chart-pie" }
     ];

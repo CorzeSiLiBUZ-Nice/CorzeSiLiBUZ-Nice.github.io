@@ -40,7 +40,8 @@ body {
 }
 
 .nav-links a:hover {
-    color: #FF6500; /* เปลี่ยนสี Hover เป็นสีส้ม */
+    color: #FF6500;
+    /* เปลี่ยนสี Hover เป็นสีส้ม */
     border-bottom: 2px solid #FF6500;
 }
 
@@ -91,7 +92,8 @@ body {
 .welcome-text {
     font-size: 1.8rem;
     font-weight: bold;
-    color: #FF6500; /* ใช้สีส้มให้โดดเด่น */
+    color: #FF6500;
+    /* ใช้สีส้มให้โดดเด่น */
     text-transform: uppercase;
     letter-spacing: 2px;
     display: flex;
@@ -110,8 +112,15 @@ body {
 
 /* ✅ เอฟเฟกต์ให้ข้อความทักทายค่อย ๆ ปรากฏ */
 @keyframes fadeInGreeting {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 
@@ -146,7 +155,8 @@ body {
 }
 
 #dynamic-role {
-    color: #FF6500; /* สีส้ม */
+    color: #FF6500;
+    /* สีส้ม */
     font-weight: bold;
 }
 
@@ -161,9 +171,11 @@ body {
 /* 🟠 วงกลมหลัก (ใหญ่สุด) */
 .circle-main {
     position: absolute;
-    width: 380px; /* ขยายให้ใหญ่ขึ้น */
+    width: 380px;
+    /* ขยายให้ใหญ่ขึ้น */
     height: 380px;
-    background: #1E3E62; /* สีน้ำเงินสว่าง */
+    background: #1E3E62;
+    /* สีน้ำเงินสว่าง */
     border-radius: 50%;
     top: 55%;
     left: 50%;
@@ -174,9 +186,11 @@ body {
 /* 🔹 วงกลมสุ่มที่ 1 (กลาง) */
 .circle-secondary {
     position: absolute;
-    width: 320px; /* ขยายให้ใหญ่ขึ้น */
+    width: 320px;
+    /* ขยายให้ใหญ่ขึ้น */
     height: 320px;
-    background: rgba(11, 25, 44, 0.5); /* น้ำเงินเข้ม */
+    background: rgba(11, 25, 44, 0.5);
+    /* น้ำเงินเข้ม */
     border-radius: 50%;
     top: 45%;
     left: 35%;
@@ -187,9 +201,11 @@ body {
 /* 🔹 วงกลมสุ่มที่ 2 (เล็กสุด) */
 .circle-extra {
     position: absolute;
-    width: 250px; /* ขยายให้ใหญ่ขึ้น */
+    width: 250px;
+    /* ขยายให้ใหญ่ขึ้น */
     height: 250px;
-    background: rgba(30, 62, 98, 0.4); /* น้ำเงินสว่างกว่าตัวแรก */
+    background: rgba(30, 62, 98, 0.4);
+    /* น้ำเงินสว่างกว่าตัวแรก */
     border-radius: 50%;
     top: 70%;
     left: 70%;
@@ -208,7 +224,8 @@ body {
 
 /* 🟠 ปรับปุ่มให้ดูสวยขึ้น */
 .btn {
-    background: #FF6500; /* สีปุ่มเป็นสีส้ม */
+    background: #FF6500;
+    /* สีปุ่มเป็นสีส้ม */
     color: white;
     padding: 12px 20px;
     margin-top: 15px;
@@ -218,7 +235,8 @@ body {
 }
 
 .btn:hover {
-    background: #1E3E62; /* เปลี่ยนเป็นน้ำเงินสว่าง */
+    background: #1E3E62;
+    /* เปลี่ยนเป็นน้ำเงินสว่าง */
     box-shadow: 0 0 20px #FF6500;
 }
 
@@ -269,7 +287,7 @@ body {
 }
 
 /* Icon Decoration */
-#about::before, 
+#about::before,
 #about::after {
     content: "";
     position: absolute;
@@ -292,9 +310,17 @@ body {
 
 /* Animation */
 @keyframes glowing {
-    0% { box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4); }
-    50% { box-shadow: 0px 0px 30px rgba(255, 101, 0, 0.6); }
-    100% { box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4); }
+    0% {
+        box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4);
+    }
+
+    50% {
+        box-shadow: 0px 0px 30px rgba(255, 101, 0, 0.6);
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4);
+    }
 }
 
 #about {
@@ -373,7 +399,7 @@ body {
 }
 
 /* วงกลมตกแต่ง */
-#career-goals::before, 
+#career-goals::before,
 #career-goals::after {
     content: "";
     position: absolute;
@@ -396,9 +422,17 @@ body {
 
 /* Animation */
 @keyframes glowing {
-    0% { box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4); }
-    50% { box-shadow: 0px 0px 30px rgba(255, 101, 0, 0.6); }
-    100% { box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4); }
+    0% {
+        box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4);
+    }
+
+    50% {
+        box-shadow: 0px 0px 30px rgba(255, 101, 0, 0.6);
+    }
+
+    100% {
+        box-shadow: 0px 0px 10px rgba(255, 101, 0, 0.4);
+    }
 }
 
 #career-goals {
@@ -408,7 +442,8 @@ body {
 /* General Section Styling */
 .section {
     padding: 50px 10%;
-    background: transparent; /* ให้สีโปร่งใสเพื่อให้เห็นพื้นหลังไล่สี */
+    background: transparent;
+    /* ให้สีโปร่งใสเพื่อให้เห็นพื้นหลังไล่สี */
     color: white;
     text-align: left;
 }
@@ -425,14 +460,17 @@ body {
 
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* แบ่งเป็น 2 คอลัมน์ */
-    gap: 30px; /* ระยะห่างระหว่างคอลัมน์ */
+    grid-template-columns: repeat(2, 1fr);
+    /* แบ่งเป็น 2 คอลัมน์ */
+    gap: 30px;
+    /* ระยะห่างระหว่างคอลัมน์ */
     width: 100%;
     max-width: 900px;
 }
 
 .skill-category {
-    background: rgba(255, 255, 255, 0.05); /* พื้นหลังโปร่งแสง */
+    background: rgba(255, 255, 255, 0.05);
+    /* พื้นหลังโปร่งแสง */
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -457,14 +495,16 @@ body {
     margin-top: 10px;
 }
 
-.icon-container i, .icon-container img {
+.icon-container i,
+.icon-container img {
     font-size: 40px;
     width: 50px;
     height: 50px;
     transition: transform 0.3s ease-in-out;
 }
 
-.icon-container i:hover, .icon-container img:hover {
+.icon-container i:hover,
+.icon-container img:hover {
     transform: scale(1.2);
 }
 
@@ -504,7 +544,8 @@ body {
 .timeline::after {
     content: "";
     position: absolute;
-    width: 4px;  /* ความหนาของเส้น Timeline */
+    width: 4px;
+    /* ความหนาของเส้น Timeline */
     background: rgba(255, 101, 0, 0.8);
     top: 0;
     bottom: 0;
@@ -521,7 +562,8 @@ body {
     border-radius: 8px;
     margin-bottom: 40px;
     transition: 0.3s;
-    opacity: 0; /* เริ่มต้นเป็นโปร่งใส เพื่อให้ GSAP ทำงาน */
+    opacity: 0;
+    /* เริ่มต้นเป็นโปร่งใส เพื่อให้ GSAP ทำงาน */
     transform: translateY(50px);
 }
 
@@ -561,11 +603,66 @@ body {
     color: #b0b0b0;
 }
 
+/* 🎯 New Timeline Design */
+.timeline-cards {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+
+.timeline-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 25px;
+    border-left: 5px solid #FF6500;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 101, 0, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.timeline-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateY(-5px);
+}
+
+.timeline-badge {
+    background-color: #FF6500;
+    color: white;
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.timeline-card h3 {
+    color: #FF6500;
+    font-size: 1.4rem;
+    margin: 10px 0 5px;
+}
+
+.timeline-card h4 {
+    font-size: 1.1rem;
+    color: #e0e0e0;
+    margin-bottom: 10px;
+}
+
+.timeline-card p {
+    font-size: 1rem;
+    color: #d0d0d0;
+    line-height: 1.6;
+}
+
+
 /* 🎨 Contact Section */
 #contact {
     text-align: center;
     padding: 50px 10%;
-    background: linear-gradient(180deg, #0B192C, #1E3E62); /* ไล่สีจากธีม */
+    background: linear-gradient(180deg, #0B192C, #1E3E62);
+    /* ไล่สีจากธีม */
     color: white;
 }
 
@@ -616,10 +713,26 @@ body {
 }
 
 /* ✨ เพิ่มสีให้ไอคอน */
-.contact-item:nth-child(1) i { color: #1877F2; }  /* Facebook */
-.contact-item:nth-child(2) i { color: #06C755; }  /* Line */
-.contact-item:nth-child(3) i { color: #E4405F; }  /* Instagram */
-.contact-item:nth-child(4) i { color: #FF6500; }  /* Email */
+.contact-item:nth-child(1) i {
+    color: #1877F2;
+}
+
+/* Facebook */
+.contact-item:nth-child(2) i {
+    color: #06C755;
+}
+
+/* Line */
+.contact-item:nth-child(3) i {
+    color: #E4405F;
+}
+
+/* Instagram */
+.contact-item:nth-child(4) i {
+    color: #FF6500;
+}
+
+/* Email */
 
 /* 🧩 Portfolio Section */
 #portfolio {
@@ -699,4 +812,24 @@ body {
 .project-with-image .project-images img:hover {
     transform: scale(1.05);
     box-shadow: 0 0 20px rgba(255, 101, 0, 0.4);
+}
+
+/* 🔄 ปรับขนาดภาพตามแนวของโปรเจกต์ */
+.project-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+/* แนวนอน เช่น MP App */
+.project-images.horizontal img {
+    height: auto;
+    width: 280px;
+    max-width: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+    transition: transform 0.3s ease;
 }
