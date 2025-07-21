@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 roleIndex = (roleIndex + 1) % roles.length;
             }
         });
-    }
+    } 
 
     setInterval(changeRole, 2000);
 
