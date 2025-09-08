@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // 🔹 เปลี่ยนตำแหน่งพร้อมไอคอน
     const roles = [
-        { title: "Project Manager", icon: "fas fa-briefcase" },
+        // { title: "Project Manager", icon: "fas fa-briefcase" },
         { title: "System Analyst", icon: "fas fa-chart-line" },
         { title: "Full Stack Developer", icon: "fas fa-code" },
         // { title: "DevOps", icon: "fas fa-server" },
@@ -150,3 +150,4 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
